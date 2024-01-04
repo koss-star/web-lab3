@@ -1,0 +1,79 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #163152;
+    background-color: #fdfdff;
+    margin: 0 10%;
+}
+
+header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #00c6bd;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover:enabled {
+    background-color: #00c6bd;
+    color: #fdfdff;
+    opacity: 0.5;
+}
+
+button:disabled {
+    cursor: default;
+    opacity: 0.9;
+}
+
+#deleteRowContainer {
+    display: flex;
+}
+
+input {
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#buttonDeleteRow {
+    margin-left: 10px;
+}
+
+#tableContainer {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 75px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 200px;
+}
+
+tr {
+    text-align: center;
+
+    color: #163152;
+    border: 1px solid #163152;
+    border-radius: 3px;
+
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+
+    color: #163152;
+    border: 1px solid #163152;
+    border-radius: 3px;
+
+    padding: 5px;
+}
